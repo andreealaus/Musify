@@ -1,0 +1,14 @@
+nav ul li:hover {
+    background-color: black;
+ }
+
+ .logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo>img {
+    vertical-align: middle;
+		position: relative; 
+    top:1px; 
+}
