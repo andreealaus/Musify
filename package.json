@@ -1,13 +1,30 @@
 {
-  "author": "Spotify",
-  "name": "web-api-auth-examples",
-  "description": "Basic examples of the Spotify authorization flows through OAuth 2",
-  "version": "0.0.2",
   "dependencies": {
     "cookie-parser": "1.3.2",
-    "express": "~4.16.0",
     "cors": "^2.8.4",
+    "express": "~4.16.0",
+    "firebase": "^9.17.1",
     "querystring": "~0.2.0",
     "request": "~2.83.0"
-  }
+  },
+  "name": "musify",
+  "version": "1.0.0",
+  "description": "An application used for connecting people with performing artists within a festival.",
+  "main": "index.html",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Musify",
+    "progressive",
+    "web",
+    "app",
+    "complete"
+  ],
+  "author": "Andreea Laus",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "type": "module"
 }
